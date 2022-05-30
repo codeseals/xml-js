@@ -1,10 +1,10 @@
 {
-  "name": "xml-js",
+  "name": "@codeseals/xml-js",
   "version": "1.6.11",
   "description": "A convertor between XML text and Javascript object / JSON text.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nashwaan/xml-js.git"
+    "url": "https://github.com/codeseals/xml-js.git"
   },
   "author": "Yousuf Almarzooqi <ysf953@gmail.com>",
   "license": "MIT",
