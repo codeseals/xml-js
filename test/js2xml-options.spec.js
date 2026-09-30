@@ -3,7 +3,7 @@ var testItems = require('./test-items');
 
 /*global describe,it,expect*/
 
-describe('Testing js2xml.js:', function () {
+describe('Testing js2xml.js options:', function () {
 
   describe('No options supplied (fallback to defaults):', function () {
 
@@ -351,11 +351,9 @@ describe('Testing js2xml.js:', function () {
 
     describe('improper json', function () {
 
-      try {
-        convert.json2xml('{a:', {});
-      } catch (e) {
-        e.note = 'ignore me';
-      }
+      it('Throws on malformed json text', function () {
+        expect(function () { convert.json2xml('{a:', {}); }).toThrow();
+      });
 
     });
 

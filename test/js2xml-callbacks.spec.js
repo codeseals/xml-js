@@ -25,7 +25,7 @@ function fullTag(name) {
   return name === 'b';
 }
 
-describe('Testing js2xml.js:', function () {
+describe('Testing js2xml.js callbacks:', function () {
 
   describe('Adding function callbacks, options = {compact: false}', function () {
 
