@@ -5,6 +5,8 @@
     ],
     "helpers": [
     ],
-    "stopSpecOnExpectationFailure": false,
-    "random": false
+    "env": {
+        "stopSpecOnExpectationFailure": false,
+        "random": false
+    }
 }
